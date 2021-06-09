@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -13,7 +14,7 @@ import javax.validation.constraints.Size;
 @Entity
 @Table(name="cliente")
 @Data
-@Builder
+@NoArgsConstructor
 public class Cliente {
 
     @Id
