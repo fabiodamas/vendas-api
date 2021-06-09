@@ -27,8 +27,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-        .title("Hospital API")
-        .description("Um exemplo de aplicação Spring Boot REST API")
+        .title("Vendas API")
+        .description(" API para controle de vendas")
         .version("1.0.0")
         .license("Apache License Version 2.0")
         .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")

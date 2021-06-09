@@ -10,8 +10,8 @@ public class Home {
         return "index";
     }
 
-    @GetMapping("/healthy")
+    @GetMapping("/health")
     public String healthy(){
-        return "healthy/index.html";
+        return "health/index.html";
     }    
 }
